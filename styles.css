@@ -30,9 +30,9 @@ ol {
     border-width: 2px;
     width: 250px;
 }
-.primeira .selector {
+.primeira .selecionado {
     border-color: rgb(0, 255, 0);
 }
-.segunda .selector {
+.segunda .selecionado {
     border-color: rgb(255, 0, 0);
 }
