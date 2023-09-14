@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" />
     <title>Listas</title>
 </head>
+
 <body>
-    <header>
-        <h1>Listas</h1>
-    </header>
     <div class="content">
-        <div class="lista01" id="lista01">
-            <ul class="primeira">
-                <ol>JavaScript</ol>
-                <ol>Bootstrap</ol>
-                <ol>CSS</ol>
-                <ol>Java</ol>     
-            </ul>
+        <div id="myDIV" class="header">
+            <h2>To-do-List</h2>
+            <input type="text" id="myInput" placeholder="O que vou fazer...">
+            <span onclick="transferir()" class="addBotao">Adicionar</span>
         </div>
 
-        <div>
-            <button onclick="transferir()">Transferir</button>
-        </div>
-    
-        <div class="lista02" id="lista02">
-            <ul class="segunda">
-                <ol>SQL</ol>
-                <ol>HTML</ol>
-                <ol>Github</ol>
-                <ol>React</ol> 
-            </ul>
-        </div>
+        <h2>Tarefas</h2>
+        <ul id="myUL">
+            <li>Teste 1</li>
+            <li>Teste 2</li>
+            <li>Teste 3</li>
+        </ul>
+
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
